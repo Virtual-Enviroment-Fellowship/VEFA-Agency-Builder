@@ -115,7 +115,7 @@ Built upon **CloudPanel** on a fresh **Ubuntu 24.04 LTS** base, providing enterp
 
 ---
 
-## 🎛️ The ConsultDevin Client Dashboard
+## 🎛️ The Client Dashboard
 
 Upgrades and enhancements made to the shared core immediately roll out across all 200+ tenant micro-sites without touching individual site deployments.
 
@@ -233,9 +233,3 @@ Once installation completes, the wizard presents an action suite:
 * **Sanitized Template**: Use [`agency-config.example.json`](agency-config.example.json) as a reference when sharing with teammates.
 
 ---
-
-## 🌐 Community & Legal Notice
-
-* **Official Portal**: [https://www.VEFA.club](https://www.VEFA.club)
-* **Trademark**: **VEFA™: Virtual Environment Fellowship of America** *(Registered / Trademarked as of 2026 - All Rights Reserved)*.
-* **Support**: For architecture guides, trade modules, and agentic orchestration updates, visit the official VEFA portal.
