@@ -1,0 +1,19 @@
+[Unit]
+Description=Agency AI Job Queue Worker Daemon
+After=network.target mysql.service mariadb.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User={{.SystemUser}}
+Group={{.SystemUser}}
+WorkingDirectory=/var/www/master-app
+ExecStart=/usr/bin/php8.3 /var/www/master-app/worker.php
+Restart=always
+RestartSec=3
+StandardOutput=journal
+StandardError=journal
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

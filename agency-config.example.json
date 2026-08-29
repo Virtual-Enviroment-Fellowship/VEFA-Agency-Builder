@@ -1,0 +1,20 @@
+{
+  "agency_name": "VEFA Agency",
+  "vps_host": "192.0.2.1",
+  "ssh_port": 22,
+  "ssh_user": "root",
+  "ssh_password": "",
+  "ssh_key_path": "",
+  "portal_domain": "portal.example.com",
+  "asset_domain": "assets.example.com",
+  "db_user": "db_core_user",
+  "db_password": "YourSecureDatabasePassword123!",
+  "core_db_name": "db_agency_core",
+  "demo_db_name": "db_tenant_demo",
+  "demo_domain": "demo.example.com",
+  "demo_tenant_id": "demo-tenant-101",
+  "mcp_endpoint": "https://api.example.com/mcp",
+  "mcp_secret_key": "sk_example_secret_token_12345",
+  "system_user": "clp",
+  "seed_demo_tenant": true
+}

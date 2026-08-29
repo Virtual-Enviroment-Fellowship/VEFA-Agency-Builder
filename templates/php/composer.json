@@ -1,0 +1,24 @@
+{
+    "name": "agency/master-app",
+    "description": "High-Density Multi-Tenant AI Platform",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "slim/slim": "^4.13",
+        "slim/psr7": "^1.6",
+        "php-di/php-di": "^7.0",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
